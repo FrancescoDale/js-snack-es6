@@ -36,3 +36,9 @@ console.log(bikeIndex);
 let lighterBike; // variabile che prenderà il valore della bicicletta più leggera
 
 lighterBike = bikeIndex[0];
+
+// invece del ciclo for, per assegnare il peso minore via via che scorro l'array, uso il foreach e la arrow function
+
+bikeIndex.forEach((item, i) => {
+
+});
