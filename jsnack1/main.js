@@ -32,3 +32,7 @@ const bikeIndex = [
 // test visualizzazione array
 
 console.log(bikeIndex);
+
+let lighterBike; // variabile che prenderà il valore della bicicletta più leggera
+
+lighterBike = bikeIndex[0];
