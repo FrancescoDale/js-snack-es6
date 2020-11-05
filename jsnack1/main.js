@@ -8,7 +8,7 @@ const bikeIndex = [
     },
     {
         'model' : 'type1',
-        'weight' : 7,
+        'weight' : 4.7,
     },
     {
         'model' : 'type2',
