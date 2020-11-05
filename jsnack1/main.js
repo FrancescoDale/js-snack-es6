@@ -39,6 +39,14 @@ lighterBike = bikeIndex[0];
 
 // invece del ciclo for, per assegnare il peso minore via via che scorro l'array, uso il foreach e la arrow function
 
-bikeIndex.forEach((item, i) => {
+bikeIndex.forEach((element) => {
+    if (element.weight < lighterBike.weight) {
+        lighterBike = element;
+    }
 
-});
+}
+);
+
+//nel ciclo forEach avevo commesso un errore che non faceva funzionare il cambio di valore della variabile lighterBike. ( bikeIndex.weight invece di usare lighterBike.weight, in quel modo la variabile rimaneva sempre con lo stesso valore pari a bikeIndex[0] )
+
+console.log(lighterBike);
