@@ -45,8 +45,12 @@ const outputIndex = []; // array creato in base a quali elementi sono individuat
 nameIndex.forEach((element, index) => {
 
     // condizione, uso l'operatore AND, l'index deve essere sia  maggiore uguale di limiteInf che minore o uguale di limiteSup
-    if(limiteInf <= index && index >= limiteSup){
+    if(limiteInf <= index && limiteSup >= index){
         outputIndex.push(element); // fa una push inserendo l'intero oggetto puntato nell'array outputIndex
     }
 
 });
+
+// verifico risultato
+
+console.log(outputIndex);
